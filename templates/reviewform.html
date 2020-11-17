@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sentiment Analysis</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body >
+<h1>Demo đồ án môn học Khai thác Văn bản</h1>
+<h2>Hãy nhập vào bình luận của bạn:</h2>
+
+{% from "_formhelpers.html" import render_field %}
+
+<form method=post action="/results">
+  <dl">
+	{{ render_field(form.moviereview, cols='50', rows='15') }}
+  </dl>
+  <div >
+	  <input class="btn" type=submit value='Đánh giá' placeholder="Nhập ít nhất 15 ký tự !" name='submit_btn'>
+  </div>
+</form>
+
+  </body>
+</html>
