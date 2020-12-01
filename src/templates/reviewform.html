@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sentiment Analysis</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body >
+<h1>Demo Text_Mining Final Project </h1>
+<h2>Type your comment or review:</h2>
+
+{% from "_formhelpers.html" import render_field %}
+
+<form method=post action="/results">
+  <dl>
+	{{ render_field(form.moviereview, cols='50', rows='15') }}
+  </dl>
+  <div >
+	  <input class="btn" type=submit value='Submit' placeholder="Enter at least 15 characters!" name='submit_btn'>
+  </div>
+</form>
+
+  </body>
+</html>

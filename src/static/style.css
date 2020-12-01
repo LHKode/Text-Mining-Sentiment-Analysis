@@ -1,0 +1,17 @@
+body{
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  background-color: khaki;
+}
+.btn {
+  color: rgb(255, 255, 255);
+  background-color: #5acf20!important; 
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #ffea01 !important; 
+  color: #c92228 !important;
+  border-color: #000
+}
