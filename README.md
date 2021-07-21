@@ -1,5 +1,5 @@
 # Text-Mining-Sentiment-Analysis
-Classify sentiment into 2 general type: Possitive&Negative by Logistic Regression
+Classify sentiment in a sentence into 2 general type: Possitive&Negative by Logistic Regression
 ## About team
 We work with a team of 2 people:
 * [Lâm Phát Tài](https://github.com/lamphattai2105)
