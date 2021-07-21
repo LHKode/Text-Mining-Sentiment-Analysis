@@ -1,5 +1,10 @@
 # Text-Mining-Sentiment-Analysis
-> Lâm Hoàng Khánh & Lâm Phát Tài
+Classify sentiment into 2 general type: Possitive&Negative by Logistic Regression
+## About team
+We work with a team of 2 people:
+* [Lâm Phát Tài](https://github.com/lamphattai2105)
+* [Lâm Hoàng Khánh](https://github.com/lhk1234)
+> Feel free to contact us for any further contribution 👍🤘🤗😜
 ## Usage
 1. Clone this git and open visualize.py in src folder.
 2. Run that file by [**PyCharm**](https://www.jetbrains.com/pycharm/) (if you've installed), if not run this
