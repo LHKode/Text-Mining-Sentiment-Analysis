@@ -13,4 +13,4 @@ python visualize.py
 ```
 3. It'll be in a webpage, very simple and easy to try.
 ![index](src/index.jpg)
-4. Have fun
+4. Have fun 
